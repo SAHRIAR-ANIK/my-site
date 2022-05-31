@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap');
+
+body{font-family: 'Fira Sans', sans-serif;}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+/* NAVBAR STARTS HERE ******************************************************************** */
+
+.navbar{padding: 1% 7%; background-color: #40868B; display: flex; justify-content: space-around; align-items: center; color: #fff;}
+
+.nav-left{width: 20%;}
+
+.nav-midle{width: 30%;}
+
+.nav-right{width: 50%;}
+
+.nav-midle{font-size: 22px; text-align: right;}
+
+.nav-right ul{display: flex; justify-content:flex-end;}
+
+.nav-right ul li{list-style: none;}
+
+.nav-right ul li a{color: #fff; text-decoration: none; padding: 10px; text-transform: uppercase; font-size: 1.2rem; border-radius: 5px;}
+
+.nav-right ul li a:hover{background-color: grey;}
+
+/* NAVBAR ENDS HERE ******************************************************************** */
+
+
+/* SECOND STARTS HERE **********************************************************************/
+
+.second{text-align: center; padding: 60px 50px}
+
+.second h1{margin-bottom: 30px; font-family: 'Satisfy', cursive; font-size: 50px;}
+
+.second p{color: grey; font-size: 20px; line-height: 30px; margin-bottom: 30px;}
+
+.second img{margin-bottom: 30px; transition: 2s ;}
+
+.second img:hover{transform: rotate(360deg);}
+
+/* SECOND ENDS HERE **********************************************************************/
+
+
+/* THIRD STARTS HERE*********************************************************************/
+
+.third{display: flex; justify-content: space-around; padding: 50px 7%; background-color:#39A4AC; color: #fff; align-items: center; margin-bottom: 60px;}
+
+.third-left{width: 30%; text-align: center;}
+
+.third-right{width: 40%;}
+
+.third-left img{width: 250px; border: 3px solid #fff; border-radius: 50%;}
+
+.third-right h2{margin-bottom: 30px; font-size: 35px;}
+
+.third-right .fast{font-size: 18px; margin-bottom:30px;}
+
+.third-right .ditio{font-size: 16px; margin-bottom:30px;}
+
+.third a{color: #fff; text-decoration: none;}
+
+.same{padding: 15px 0; font-size: 20px;}
+
+.mb{margin-bottom: 40px;}
+
+a.btn{background-color: #052D2F; color: #fff; text-decoration: none; padding: 13px 20px; border-radius: 7px;}
+
+/* THIRD ENDS HERE*********************************************************************/
+
+
+/* FORTH STARTS HERE*********************************************************************/
+
+.forth{padding: 0 5%; display: flex; justify-content: space-around; margin-bottom: 100px; box-sizing: border-box;}
+
+.forth-left{width: 27%;}
+
+.forth-midle{width: 27%;}
+
+.forth-right{width: 27%;}
+
+.card{background-color: #A39E9E; padding: 30px; border-radius: 10px; transition: .3s;}
+
+.pic{text-align: center;}
+
+.pic img{border: 5px solid #fff; border-radius: 50%; padding: 10px; margin-bottom: 30px;} 
+
+.title h1{text-align: center; background-color: #616161; color: #fff; padding: 8px; margin-bottom: 30px;}
+
+.desc hr{margin-bottom: 30px;}
+
+.desc p{margin-bottom: 5px;}
+
+.card strong{color:#2c3e50;}
+
+.gh{width: 90px;}
+
+.card:hover{box-shadow: 0px 4px 8px 5px black;}
+
+.desc ul li{list-style: none; font-weight: bold; margin: 31px 0; font-size: 18px; position: relative;}
+
+.desc ul li::before{content: ''; width: 100%; height: 13px; background-color: rgb(86,86,153,.5); border-radius: 1000px; position: absolute; top: 30px;}
+
+.desc ul li::after{content: ''; width:0; height: 13px; background-color:rgb(86,86,153,1);
+
+border-radius: 1000px; position: absolute; top: 30px; left: 0; animation-duration: 2s;
+
+animation-iteration-count: infinite; animation-fill-mode: forwards; animation-timing-function: linear;}
+
+.desc li.html::after{animation-name: html;}
+
+@keyframes html{ to{width: 90%;}}
+
+
+.desc li.css::after{animation-name: css;}
+
+@keyframes css{ to{width: 80%;}}
+
+
+.desc li.bootstrap::after{animation-name: bootstrap;}
+
+@keyframes bootstrap{ to{width: 70%;}}
+
+
+.desc li.java::after{animation-name: java;}
+
+@keyframes java{ to{width: 60%;}}
+
+
+.desc li.jq::after{animation-name: jq;}
+
+@keyframes jq{ to{width: 50%;}}
+
+
+.desc li.git::after{animation-name: git;}
+
+@keyframes git{ to{width: 40%;}}
+
+
+.desc li.node::after{animation-name: node;}
+
+@keyframes node{ to{width: 30%;}}
+
+
+.desc li.react::after{animation-name: react;}
+
+@keyframes react{ to{width: 20%;}}
+
+/* FORTH ENDS HERE*********************************************************************/
+
+
+/* FIFTH STARTS HERE*********************************************************************/
+
+.fifth{display: flex; justify-content: space-around; background-color: #39A4AC; color: #fff; padding: 50px 7%;}
+
+.fifth-left{width: 30%;}
+
+.fifth-midle{width: 30%;}
+
+.fifth-right{width: 30%;}
+
+.fifth h1{text-align: center; margin-bottom: 30px;}
+
+input{width: 100%; border-radius: 5px; padding: 12px 20px; border: none; margin-bottom: 20px; text-align: center;}
+
+textarea{width: 100%;resize: none; border-radius: 10px; padding: 10px 20px; border: none; margin-bottom: 30px; text-align: center;}
+
+.fifth-midle{text-align: center;}
+
+.fifth-midle button{color: #fff; background-color: #052D2F; border-radius: 10px;
+
+padding: 12px 20px; margin: 0 10px; width: 130px; font-size: 18px; border: none;}
+
+.fifth-left p{margin-bottom: 20px; font-size: 20px;}
+
+.df ul{display: flex; justify-content: center;}
+
+.df ul li{list-style: none; margin: 0 20px; background-color: #fff;  margin-bottom: 40px;
+
+border-radius: 7px; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center;}
+
+.df ul li a{text-decoration: none;}
+
+i{font-size: 30px;}
+
+/* FIFTH ENDS HERE*********************************************************************/
+
+
+/*SIX STARTS HERE*********************************************************************/
+
+.six{display: flex; justify-content: space-between; background-color: #000; color: #fff; padding: 20px 8%; align-items: center;}
+
+.six-left ul{display: flex; list-style: none;}
+
+.six-left ul li a{ margin: 0 10px; font-size: 18px; text-transform: uppercase; color: #fff; text-decoration: none;}
+
+.six-left ul li a:hover{color: grey; cursor: pointer;}
+
+.six-right span{font-size: 25px; color: red;}
+
+/*SIX ENDS HERE*********************************************************************/
+
+
+/*RESPONSIVE STARTS HERE*********************************************************************/
+
+@media (max-width:992px) {
+
+.navbar{flex-direction:column; text-align: center;}
+
+.nav-left{width: 100%; margin-bottom: 20px;}
+
+.nav-midle{width: 100%; margin-bottom: 20px; text-align: center;}
+
+.nav-right{width: 100%;}
+
+.nav-right ul{flex-direction: column;}
+
+.nav-right ul li{margin: 7px; padding: 10px; border-radius: 10px; background-color: #066168; }
+
+.nav-right ul li:hover{background-color: grey; cursor: pointer;}
+
+.third{flex-direction: column; text-align: center;}
+
+.third-left{width: 100%;}
+
+.third-right{width: 100%;}
+
+.forth{flex-direction: column;}
+
+.forth-left{width: 100%;}
+
+.forth-midle{width: 100%;}
+
+.forth-right{width: 100%;}
+
+.card{margin-bottom: 35px;}
+
+.fifth{flex-direction: column;}
+
+.fifth-left{width: 100%;}
+
+.fifth-midle{width: 100%;}
+
+.fifth-right{width: 100%; margin-top: 50px;}
+
+.six{flex-direction: column;}
+
+.six-left{width: 100%;}
+
+.six-right{width: 100%; text-align: center;}
+
+.six-left ul{flex-direction: column; text-align: center; margin-bottom: 10px;}
+
+.six-left ul li{margin: 10px 0;}
+
+}
+
+
+
+@media (max-width:353px) {
+
+.fifth-midle button{margin-bottom: 20px;}
+
+.df ul li{width: 50px; height: 50px; margin: 0 10px; margin-bottom: 20px;}
+
+}
+
+
+/*RESPONSIVE ENDS HERE*********************************************************************/
